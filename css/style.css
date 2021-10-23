@@ -3,8 +3,9 @@
 }
 
 body {
-	background: #FAEBD7 url('../images/vintage-concrete.png');
+	background: #FAEBD7 url('../images/grid-bg.jpg');
 	color: #333;
+	background-size: 100%;
 }
 
 a {
@@ -12,7 +13,7 @@ a {
 	color: #333;
 }
 
-a:hover { color: Tomato; }
+a:hover { color: #e1b83c; }
 
 header, nav, main, footer {
 	width: 80%;
@@ -26,7 +27,8 @@ header {
 	color: BlanchedAlmond;
 	min-height: 100px;
 	margin-top: 60px;
-	background-image: url("../images/stars.jpeg");
+	background-image: url("../images/header-img.jpg");
+	background-size: 100%;
 }
 
 header h1 {
@@ -34,21 +36,40 @@ header h1 {
 	font-size: 48px;
 }
 
+h1 {
+	font-family: casablanca-urw, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+h2 {
+	font-family: acumin-pro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 18px;
+}
+
+p, ul {
+	font-family: acumin-pro, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
 
 /* Nav styles */
-nav { background-color: #333; }
+nav { background-color: #8a0010; }
 nav ul { 
 	display: flex;
 	justify-content: flex-end;
+	font-family: acumin-pro, sans-serif;
 }
 nav li { padding: 10px 10px; }
-nav a { color: BlanchedAlmond; }
-nav a:hover { color: white; }
+nav a { color: #e1b83c; }
+nav a:hover { color: #f6f6f6; }
 
 
 /* Main styles */
 main { 
-	background-color: #fff;
+	background-color: #f6f6f6;
 	display: grid;
 	grid-template-columns: 60% 40%;
 }
@@ -70,7 +91,7 @@ aside {
 
 /* Footer styles */
 footer { 
-	background-color: #000;
+	background-color: #0375a9;
 	color: white;
 	text-align: center;
  }
